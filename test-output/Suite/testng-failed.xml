@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test1(failed)">
+    <parameter name="port" value="4723"/>
+    <parameter name="deviceName" value="Galaxy M30s"/>
+    <parameter name="UDID" value="RZ8M83ZJH2W"/>
+    <classes>
+      <class name="TestCases.AddProductToCart">
+        <methods>
+          <include name="addProductToCart" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.AddProductToCart -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
